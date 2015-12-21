@@ -1,21 +1,21 @@
-Simply Log
+Log Easily
 ====================
-![Simply Log Dependency badge](https://david-dm.org/anonmily/simply-log.svg)
+![Log Easily Dependency badge](https://david-dm.org/anonmily/log-easily.svg)
 
 An expressive type testing utility library.
 
-[GITHUB:	https://github.com/anonmily/simply-log](https://github.com/anonmily/simply-log)
+[GITHUB:	https://github.com/anonmily/log-easily](https://github.com/anonmily/log-easily)
 
-[NPM:		https://www.npmjs.com/package/simply-log](https://www.npmjs.com/package/simply-log)
+[NPM:		https://www.npmjs.com/package/log-easily](https://www.npmjs.com/package/log-easily)
 
 ## Installation - Node
 To install as a Node package, simply install via npm:
 
-    npm install simply-log
+    npm install log-easily
 
 Then, you can require and start using the package as you wish:
 
-	var log = require('simply-log');
+	var log = require('log-easily');
 	log.info('this is an informational message');	// grey
 	log.warning('I'm warning you');					// yellow
 	log.error('Something went horribly wrong');		// red
@@ -28,5 +28,5 @@ Logging depends on two environmental variables, SHOW_DEBUG and SHOW_ERRORS
 |---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Info   | Informational, grey. Visible when SHOW_DEBUG=true |
 | Warning  | Warning, yellow. Visible when SHOW_DEBUG=true  |
-| Success | Success, green. Visible when SHOW_DEBUG=true	|
+| Success | Success, green. Visible when SHOW_DEBUG=true	|npm
 | Error  | Error, red. Visible when SHOW_DEBUG=true and SHOW_ERRORS=true  |
