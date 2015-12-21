@@ -2,7 +2,7 @@ Log Easily
 ====================
 ![Log Easily Dependency badge](https://david-dm.org/anonmily/log-easily.svg)
 
-An expressive type testing utility library.
+A small and simple colored logging tool.
 
 [GITHUB:	https://github.com/anonmily/log-easily](https://github.com/anonmily/log-easily)
 
@@ -17,8 +17,9 @@ Then, you can require and start using the package as you wish:
 
 	var log = require('log-easily');
 	log.info('this is an informational message');	// grey
-	log.warning('I'm warning you');					// yellow
-	log.error('Something went horribly wrong');		// red
+	log.warning('I'm warning you');			// yellow
+	log.success('This was a success');		// green
+	log.error('Something went horribly wrong');	// red
 
 ## Usage
 
