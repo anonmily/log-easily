@@ -3,7 +3,7 @@ var is = require('simply-is');
 
 var env = process.env,
 	SHOW_DEBUG = env.SHOW_DEBUG,
-	SHOW_ERROR = env.SHOW_ERROR;
+	SHOW_ERRORS = env.SHOW_ERRORS;
 	
 var log = {
 	info: function(m){
